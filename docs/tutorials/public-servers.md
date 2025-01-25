@@ -15,6 +15,7 @@ If you don't [run your own `rippled` server](../infrastructure/installation/inde
 | Operator  | [Network][] | JSON-RPC URL | WebSocket URL | Notes                |
 |:----------|:------------|:-------------|:--------------|:---------------------|
 | XRP Ledger Foundation | **Mainnet** | `https://xrplcluster.com/` <br> `https://xrpl.ws/` [²][] | `wss://xrplcluster.com/` <br>  `wss://xrpl.ws/` [²][] | Full history server cluster with CORS support. |
+| XRP Ledger Foundation paid API via Dhali (for high rate access) | **Mainnet** | `https://run.api.dhali.io/199fd80b-1776-4708-b1a1-4b2bb386435d/` | N/A | You must [create a paid API key](https://pay.dhali.io/?uuids=199fd80b-1776-4708-b1a1-4b2bb386435d) and embed it in the request's `Payment-Claim` header |
 | Ripple[¹][]   | **Mainnet** | `https://s1.ripple.com:51234/` | `wss://s1.ripple.com/` | General purpose server cluster |
 | Ripple[¹][]   | **Mainnet** | `https://s2.ripple.com:51234/` | `wss://s2.ripple.com/` | [Full-history server](../concepts/networks-and-servers/ledger-history.md#full-history) cluster |
 
